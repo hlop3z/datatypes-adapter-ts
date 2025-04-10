@@ -1,0 +1,31 @@
+{
+  "name": "model-transformer",
+  "version": "1.0.0",
+  "description": "A modular TypeScript library for transforming data models into different formats",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build",
+    "demo": "node --loader ts-node/esm demos/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "model",
+    "transformer",
+    "schema",
+    "code-generation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
