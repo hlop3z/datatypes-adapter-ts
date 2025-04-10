@@ -10,12 +10,6 @@ A modular TypeScript library that allows you to define abstract "models" (data s
 - Extensible architecture for creating custom adapters
 - TypeScript support with type definitions
 
-## Installation
-
-```bash
-npm install model-transformer
-```
-
 ## Usage
 
 ### Basic Usage
