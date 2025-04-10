@@ -159,7 +159,3 @@ Each field can have the following metadata:
 - `defaultValue`: Default value for the field
 - `description`: Description of the field
 - `constraints`: Additional constraints for the field
-
-## License
-
-MIT
